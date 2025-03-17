@@ -1,0 +1,29 @@
+@use '../abstracts/' as *;
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+
+    font-size: 14px;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: $background-light;
+
+    scroll-behavior: smooth;
+}
+
+.home {
+    @include flex(column);
+
+    margin-bottom: 100px;
+}
+
+// .homeClass:has(.aboutMeClass::view-transition) .heroClass{
+//     background-color: aqua;
+// }

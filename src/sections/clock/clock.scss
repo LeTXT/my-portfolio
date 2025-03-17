@@ -1,0 +1,14 @@
+@use '../../abstracts/' as *;
+
+.clock {
+    @include flex(row, space-between);
+
+    margin-bottom: 20px;
+
+    max-width: 1300px;
+    width: 100%;
+
+    h2 {
+        color: $medium-gray;
+    }
+}
