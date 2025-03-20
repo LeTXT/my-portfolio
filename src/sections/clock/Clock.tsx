@@ -15,7 +15,7 @@ function Clock() {
         return () => {
             clearInterval(interval)
         }
-    }, [clock])
+    }, [])
 
     return (
         <div className="clock">

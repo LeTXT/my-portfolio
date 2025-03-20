@@ -28,10 +28,6 @@ const Hero = () => {
                     <p>{coffeeErro}</p>
                 </div>
 
-                {/* <div className='errorClass'>
-                    <div className='arrowClass'></div>
-                    <p>Eita!</p>
-                </div> */}
             </div>
             
             <div className='greetingClass'>
@@ -40,11 +36,6 @@ const Hero = () => {
                 <h3>{write}</h3>
             </div>
             <div>
-                {/* <div className='clickHereClass'>
-                    <p>Aperte aqui</p>
-                    <div className='arrowClass'></div>
-                </div> */}
-                
             </div>
 
         </div>

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { languageArray } from '../../assets/languageArray'
-// import { infinityScroll } from '../../utils/infinityScroll'
+
 import './languages.scss'
 
 function Language() {

@@ -22,8 +22,6 @@ export const toWrite = (setWrite: React.Dispatch<React.SetStateAction<string>>) 
 
 export const coffeeError = (SetCoffeeErro: React.Dispatch<React.SetStateAction<string>>) => {
     const initialDescription: string = 'Café, código e '
-
-    // const array = ['404', 'e██o█', 'Undefined', 'ꎨꂷꎨ', 'NaN', 'Null', 'ꐟꁄꁄꇞ', 'e̸̵̷̻̙̜͙̗̙͖͌̄̿ͭ̎͘ŕ̴̸̸̡̡̬̹̬̼̹̥͉͍̗̰̫͓̘͙͇̗̘̇̂̓͌̄̂ͮ̀ͮͤͮ̆̂̈́̈́̊ͥ̊ͦ̚͢͞͠͡r͍̞̫̤͚ͦͪͬ̽͌̓̏ͦͅo̡̲̒ͮͮͣr͎_̴̟ͣͬ̊͊ͤ̑͡', '🄽🅤🄻🅛', 'Error']
     
     const array = ['404', 'e██o█', 'Undefined', 'NaN', 'Null', 'ꐟꁄꁄꇞ', 'Error']
 
