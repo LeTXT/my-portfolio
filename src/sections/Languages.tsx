@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
-import { languageArray } from '../../assets/languageArray'
+import { languageArray } from '../assets/languageArray'
 
-import './languages.scss'
+import '../styles/sections/languages.scss'
 
 function Language() {
   const languageRef = useRef<HTMLUListElement | null>(null);

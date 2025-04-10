@@ -1,5 +1,5 @@
-import { contactsArray } from '../../assets/contactsArray'
-import './letsTalk.scss'
+import { contactsArray } from '../assets/contactsArray'
+import '../styles/sections/letsTalk.scss'
 
 function letsTalk () {
     return (

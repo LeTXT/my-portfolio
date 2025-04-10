@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import './clock.scss'
+import '../styles/sections/clock.scss'
 
 function Clock() {
     const [clock, setClock] = useState<string>(new Date().toLocaleTimeString('pt-BR'));

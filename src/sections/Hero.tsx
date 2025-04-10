@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
+import {toWrite, coffeeError} from '../utils/toWrite.ts'
 
-import './hero.scss'
-import {toWrite, coffeeError} from '../../utils/toWrite.ts'
+import '../styles/sections/hero.scss'
 
 const Hero = () => {
 

@@ -27,9 +27,9 @@ export const cardsArray = [
     {
         title: 'Tela de Login', 
         img: './img/card/login.png', 
-        language: ['JavaScript'], 
-        gitHub: ['https://github.com/LeTXT/ticTacToeJS'], 
-        start: ['https://letxt.github.io/ticTacToeJS/']
+        language: ['React'], 
+        gitHub: ['https://github.com/LeTXT/login-form-react'], 
+        start: ['https://letxt.github.io/login-form-react/']
          
     }, 
 

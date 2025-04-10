@@ -1,6 +1,6 @@
-import Card from './Card'
-import { cardsArray } from '../../assets/cardsArray'
-import './projects.scss'
+import Card from './components/Card'
+import { cardsArray } from '../assets/cardsArray'
+import '../styles/sections/projects.scss'
 
 function Project() {
     
